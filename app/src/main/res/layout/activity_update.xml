@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#AAC5BE"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:layout_marginVertical="200dp"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/updatetaskinput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_marginTop="196dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:hint="Task"
+            android:inputType="text"
+            android:padding="8dp"
+            />
+
+        <EditText
+            android:id="@+id/updatetaskdescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+
+            android:hint="Task Description"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:padding="8dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <Button
+            android:id="@+id/updatebutton"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="20dp"
+            android:layout_height="66dp"
+            android:backgroundTint="#4D806B"
+            android:padding="8dp"
+            android:text="Update"
+
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/deletebutton"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="20dp"
+            android:layout_height="66dp"
+            android:backgroundTint="#4D806B"
+            android:padding="8dp"
+            android:text="Delete"
+
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

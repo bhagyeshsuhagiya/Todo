@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ToDo" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">#4D806B</item>
+    </style>
+
+    <style name="Theme.ToDo" parent="Base.Theme.ToDo" />
+</resources>
